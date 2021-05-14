@@ -24,9 +24,9 @@ public class NettyConnectionClient {
 
     public static void start() throws Exception{
         System.out.println("client starting....");
-
+        EventLoopGroup workerGroup = new NioEventLoopGroup();
             while(!Thread.interrupted()){
-                EventLoopGroup workerGroup = new NioEventLoopGroup();
+
                 //(1)
                 Bootstrap b = new Bootstrap();
                 // (2)

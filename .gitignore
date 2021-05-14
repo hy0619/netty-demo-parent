@@ -1,3 +1,4 @@
 # Project exclude paths
 /netty-connections-standalone/target/
 .idea
+.iml

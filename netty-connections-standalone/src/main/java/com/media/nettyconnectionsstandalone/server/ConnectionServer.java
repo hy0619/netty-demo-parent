@@ -39,7 +39,7 @@ public class ConnectionServer {
                         }
                     })
                     // (5)
-                    .option(ChannelOption.SO_BACKLOG, 128)
+                    //.option(ChannelOption.SO_BACKLOG, 128)
                     // (6)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
 
