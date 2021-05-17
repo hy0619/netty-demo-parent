@@ -2,3 +2,4 @@
 /netty-connections-standalone/target/
 .idea
 .iml
+.log
